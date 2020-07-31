@@ -1,0 +1,44 @@
+﻿Architecture: windows_all
+Built-Using: nipkg
+CompatibilityVersion: 200003
+Description: ni-rfmx-signal-creator
+  This tool simplifies the process of creating NI-RFmx signal configurations by creating them automatically from NI-RFmx Waveform Creator configuration files. For supported waveform configuration files, a NI-RFmx signal will be created that maps all available properties from the configuration file to the appropriate NI-RFmx settings.
+DisplayName: NI-RFmx Signal Creator
+Filename: ../ni-rfmx-signal-creator/ni-rfmx-signal-creator_1.0.0.8_windows_all.nipkg
+Homepage: https://github.com/NISystemsEngineering/ni-rfmx-signal-creator
+MD5sum: 91614841f07cd8e1a00be762256a2d56
+Maintainer: National Instruments <michael.whitten@ni.com>
+Package: ni-rfmx-signal-creator
+Plugin: file
+ReleaseNotes: 
+  Initial release of tool.
+Section: Utilities
+Size: 204732
+StoreProduct: no
+UserVisible: yes
+Version: 1.0.0.8
+VisibleForRuntimeDeployment: no
+
+Architecture: windows_all
+Built-Using: nipkg
+CompatibilityVersion: 200003
+Depends: ni-rfmx-signal-creator (>=1.0.0.0)
+Description: ni-rfmx-signal-creator-plugin-nr
+  A plugin that enables the NI-RFmx Signal Creator to parse RFmx Waveform Creator files (.rfws) containing 5G New Radio waveform configurations.
+DisplayName: NR Plugin for NI-RFmx Signal Creator
+Filename: ni-rfmx-signal-creator-plugin-nr/ni-rfmx-signal-creator-plugin-nr_1.0.0.8_windows_all.nipkg
+Homepage: https://github.com/NISystemsEngineering/ni-rfmx-signal-creator
+MD5sum: 3dc20fe24ea5e2d18866ca602a8bea7b
+Maintainer: National Instruments <michael.whitten@ni.com>
+Package: ni-rfmx-signal-creator-plugin-nr
+Plugin: file
+Recommends: ni-rfmx-nr-c-runtime-x86 (>=19.1)
+ReleaseNotes: 
+  Initial release of plugin supporting most features of the 5G NR standard.
+Section: Utilities
+Size: 20902
+StoreProduct: no
+UserVisible: yes
+Version: 1.0.0.8
+VisibleForRuntimeDeployment: no
+
