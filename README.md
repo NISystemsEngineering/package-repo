@@ -6,7 +6,7 @@ This is a central shared repository for hosting NI packages and feeds from the N
 
 | Repository                                                   | NI Package Manger Feed URL                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [ni-rfmx-signal-creator](https://github.com/NISystemsEngineering/ni-rfmx-signal-creator) | https://raw.githubusercontent.com/mdwhitten/package-repo/master/ni-rfmx-signal-creator/Packages |
+| [ni-rfmx-signal-creator](https://github.com/NISystemsEngineering/ni-rfmx-signal-creator) | https://raw.githubusercontent.com/NISystemsEngineering/package-repo/master/ni-rfmx-signal-creator/Packages |
 
 # Using Hosted Feeds in NI Package Manger
 
