@@ -8,13 +8,6 @@ This is a central shared repository for hosting NI packages and feeds from the N
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [ni-rfmx-signal-creator](https://github.com/NISystemsEngineering/ni-rfmx-signal-creator) | https://raw.githubusercontent.com/mdwhitten/package-repo/master/ni-rfmx-signal-creator/Packages |
 
-# Adding New Feed to Repository
-
-1. Create a new folder in the main directory of this repository with the same name as the source code repository (i.e. *my-source-repo*)
-2. Add your packages to the directory
-3.  [Create a new feed](https://www.ni.com/documentation/en/ni-package-manager/latest/manual/creating-feed/) using NI Package Manager
-4. Commit your changes to the repository
-
 # Using Hosted Feeds in NI Package Manger
 
 NI Package Manger (NIPM) requires a direct link to the hosted feed and packages; these steps below allow you to directly access the feed for use in NIPM.
@@ -36,3 +29,9 @@ Once the feed has been added in NIPM, you can install packages from this feed vi
   ![](/_img/example_feed_management.png)
 
 2. Select the **Packages** tab on the far right to show all packages that are available from the currently configured feeds, and search for your package from there.
+# Adding New Feed to Repository
+
+1. Create a new folder in the main directory of this repository with the same name as the source code repository (i.e. *my-source-repo*)
+2. Add your packages to the directory
+3.  [Create a new feed](https://www.ni.com/documentation/en/ni-package-manager/latest/manual/creating-feed/) using NI Package Manager
+4. Commit your changes to the repository
