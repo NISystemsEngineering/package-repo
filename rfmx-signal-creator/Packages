@@ -1,22 +1,23 @@
 ﻿Architecture: windows_all
 Built-Using: nipkg
 CompatibilityVersion: 200003
-Description: rfmx-signal-creator
-  This tool simplifies the process of creating NI-RFmx signal configurations by creating them automatically from NI-RFmx Waveform Creator configuration files. For supported waveform configuration files, a NI-RFmx signal will be created that maps all available properties from the configuration file to the appropriate NI-RFmx settings.
-DisplayName: Signal Creator for NI-RFmx
-Filename: rfmx-signal-creator/rfmx-signal-creator_1.1.0.0_windows_all.nipkg
-Homepage: https://github.com/NISystemsEngineering/rfmx-signal-creator
-MD5sum: 6c689ab126646273152fb0777afd2212
-Maintainer: National Instruments <michael.whitten@ni.com>
-Package: rfmx-signal-creator
+Depends: rfmx-signal-creator (>=1.1.0.0), ni-rfmx-wlan-c-runtime-x86 (>=20.0.0.49152-0+f0)
+Description: rfmx-signal-creator-plugin-wlan
+  A plugin that enables the Signal Creator for NI-RFmx to parse RFmx Waveform Creator files for WLAN (.tdms) containing WLAN waveform configurations.
+DisplayName: WLAN Plugin for Signal Creator
+Filename: rfmx-signal-creator-plugin-wlan/rfmx-signal-creator-plugin-wlan_1.0.0.4_windows_all.nipkg
+Homepage: https://github.comhttps://github.com/NISystemsEngineering/rfmx-signal-creator
+MD5sum: 1777def6ba81b25a907ad1d28f22b623
+Maintainer: NI <michael.whitten@ni.com>
+Package: rfmx-signal-creator-plugin-wlan
 Plugin: file
 ReleaseNotes: 
-  Additional information logged to console.
+  Initial release; supports channel bandwidth and standard
 Section: Utilities
-Size: 210592
+Size: 55446
 StoreProduct: no
 UserVisible: yes
-Version: 1.1.0.0
+Version: 1.0.0.4
 VisibleForRuntimeDeployment: no
 
 Architecture: windows_all
@@ -28,14 +29,14 @@ Description: rfmx-signal-creator-plugin-nr
 DisplayName: NR Plugin for Signal Creator
 Filename: rfmx-signal-creator-plugin-nr/rfmx-signal-creator-plugin-nr_1.1.0.0_windows_all.nipkg
 Homepage: https://github.comhttps://github.com/NISystemsEngineering/rfmx-signal-creator
-MD5sum: 1384dab9f521d4ae7bed946969fa4e31
-Maintainer: National Instruments <michael.whitten@ni.com>
+MD5sum: 1bf32ba83606b301679689a708534ae5
+Maintainer: NI <michael.whitten@ni.com>
 Package: rfmx-signal-creator-plugin-nr
 Plugin: file
 ReleaseNotes: 
   Addition of coresets and RB cluster handling.
 Section: Utilities
-Size: 27372
+Size: 27360
 StoreProduct: no
 UserVisible: yes
 Version: 1.1.0.0
@@ -44,22 +45,21 @@ VisibleForRuntimeDeployment: no
 Architecture: windows_all
 Built-Using: nipkg
 CompatibilityVersion: 200003
-Depends: rfmx-signal-creator (>=1.1.0.0), ni-rfmx-wlan-c-runtime-x86 (>=20.0.0.49152-0+f0)
-Description: rfmx-signal-creator-plugin-wlan
-  A plugin that enables the Signal Creator for NI-RFmx to parse RFmx Waveform Creator files for WLAN (.tdms) containing WLAN waveform configurations.
-DisplayName: WLAN Plugin for Signal Creator
-Filename: rfmx-signal-creator-plugin-wlan/rfmx-signal-creator-plugin-wlan_1.0.0.3_windows_all.nipkg
-Homepage: https://github.comhttps://github.com/NISystemsEngineering/rfmx-signal-creator
-MD5sum: b78df9bbb85fa29d5453f5915edea5ea
+Description: rfmx-signal-creator
+  This tool simplifies the process of creating NI-RFmx signal configurations by creating them automatically from NI-RFmx Waveform Creator configuration files. For supported waveform configuration files, a NI-RFmx signal will be created that maps all available properties from the configuration file to the appropriate NI-RFmx settings.
+DisplayName: Signal Creator for NI-RFmx
+Filename: rfmx-signal-creator/rfmx-signal-creator_1.1.0.0_windows_all.nipkg
+Homepage: https://github.com/NISystemsEngineering/rfmx-signal-creator
+MD5sum: 7bf14c8de26ffeb4995ba6a6c272cdca
 Maintainer: NI <michael.whitten@ni.com>
-Package: rfmx-signal-creator-plugin-wlan
+Package: rfmx-signal-creator
 Plugin: file
 ReleaseNotes: 
-  Initial release; supports channel bandwidth and standard
-Section: Application Software
-Size: 55454
+  Additional information logged to console.
+Section: Utilities
+Size: 210586
 StoreProduct: no
 UserVisible: yes
-Version: 1.0.0.3
+Version: 1.1.0.0
 VisibleForRuntimeDeployment: no
 
