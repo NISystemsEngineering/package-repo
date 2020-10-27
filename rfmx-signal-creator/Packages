@@ -128,3 +128,68 @@ UserVisible: yes
 Version: 2.0.0.0
 VisibleForRuntimeDeployment: no
 
+Architecture: windows_all
+Built-Using: nipkg
+CompatibilityVersion: 200501
+Description: rfmx-signal-creator
+  This tool simplifies the process of creating NI-RFmx signal configurations by creating them automatically from NI-RFmx Waveform Creator configuration files. For supported waveform configuration files, a NI-RFmx signal will be created that maps all available properties from the configuration file to the appropriate NI-RFmx settings.
+DisplayName: Signal Creator for NI-RFmx
+Filename: rfmx-signal-creator/rfmx-signal-creator_2.0.1.1_windows_all.nipkg
+Homepage: https://github.com/NISystemsEngineering/rfmx-signal-creator
+MD5sum: 46470e34e825516c9c7a7acc398de006
+Maintainer: NI <michael.whitten@ni.com>
+Package: rfmx-signal-creator
+Plugin: file
+ReleaseNotes: 
+  Additional information logged to console.
+Section: Utilities
+Size: 211778
+StoreProduct: no
+UserVisible: yes
+Version: 2.0.1.1
+VisibleForRuntimeDeployment: no
+
+Architecture: windows_all
+Built-Using: nipkg
+CompatibilityVersion: 200501
+Depends: rfmx-signal-creator (>=1.0.0.0), ni-rfmx-nr-c-runtime-x86 (>=20.0.0.49152-0+f0)
+Description: rfmx-signal-creator-plugin-nr
+  A plugin that enables the Signal Creator for NI-RFmx to parse RFmx Waveform Creator files (.rfws) containing 5G New Radio waveform configurations.
+DisplayName: NR Plugin for Signal Creator
+Filename: rfmx-signal-creator-plugin-nr/rfmx-signal-creator-plugin-nr_2.0.0.1_windows_all.nipkg
+Homepage: https://github.comhttps://github.com/NISystemsEngineering/rfmx-signal-creator
+MD5sum: e2e9448f4f1fdedd74c25a7d68788208
+Maintainer: NI <michael.whitten@ni.com>
+Package: rfmx-signal-creator-plugin-nr
+Plugin: file
+ReleaseNotes: 
+  Addition of coresets and RB cluster handling.
+Section: Utilities
+Size: 27572
+StoreProduct: no
+UserVisible: yes
+Version: 2.0.0.1
+VisibleForRuntimeDeployment: no
+
+Architecture: windows_all
+Built-Using: nipkg
+CompatibilityVersion: 200501
+Depends: rfmx-signal-creator (>=2.0.1.1), ni-rfmx-wlan-c-runtime-x86 (>=20.0.0.49152-0+f0)
+Description: rfmx-signal-creator-plugin-wlan
+  A plugin that enables the Signal Creator for NI-RFmx to parse RFmx Waveform Creator files for WLAN (.tdms) containing WLAN waveform configurations.
+DisplayName: WLAN Plugin for Signal Creator
+Filename: rfmx-signal-creator-plugin-wlan/rfmx-signal-creator-plugin-wlan_2.0.0.1_windows_all.nipkg
+Homepage: https://github.comhttps://github.com/NISystemsEngineering/rfmx-signal-creator
+MD5sum: a235f0e6640eccb18ed907723f1d2350
+Maintainer: NI <michael.whitten@ni.com>
+Package: rfmx-signal-creator-plugin-wlan
+Plugin: file
+ReleaseNotes: 
+  Initial release; supports channel bandwidth and standard
+Section: Utilities
+Size: 55994
+StoreProduct: no
+UserVisible: yes
+Version: 2.0.0.1
+VisibleForRuntimeDeployment: no
+
